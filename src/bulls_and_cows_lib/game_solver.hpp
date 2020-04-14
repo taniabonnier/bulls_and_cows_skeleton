@@ -19,4 +19,6 @@ namespace bulls_and_cows {
     void remove_incompatible_codes_from_possible_solutions(const AttemptAndFeedback& attempt_and_feedback,
                                                            PossibleSolutions& possible_solutions);
 
+    void all_possible_code(int num, int max, const GameOptions& game_options, PossibleSolutions& var_all_possible_codes,
+                           Code codes);
 } // namespace bulls_and_cows
